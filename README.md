@@ -2,9 +2,15 @@
 
 Creating a basic blockchain
 
+## Prerequisites
+
+* Pyenv
+* Poetry
+
 ## Start server
 
 ```sh
+poetry shell
 ./start-dev.sh
 ```
 
