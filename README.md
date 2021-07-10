@@ -9,6 +9,5 @@ Inside `.vscode/settings.json`, set this:
 ```json
 {
   "python.formatting.provider": "black",
-  "python.pythonPath": "path/to/your/virtualenv"
 }
 ```
