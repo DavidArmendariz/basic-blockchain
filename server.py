@@ -20,3 +20,10 @@ def mine_block():
         "previous_hash": block["previous_hash"],
     }
     return jsonify(response), 200
+
+
+@app.route("/get_chain", methods=["GET"])
+def get_chain():
+    chain = blockchain.chain
+    response = {"chain": chain, "length": len(chain)}
+    return jsonify(response), 200
